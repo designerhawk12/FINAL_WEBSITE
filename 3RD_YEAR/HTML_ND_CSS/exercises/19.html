@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Discord</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        img{
+            margin-bottom:3px;
+            height: 60px;
+            width: 60px;
+            border-radius: 40px;
+        }
+        .images{
+            width: 85px;
+            text-align: center;
+            padding-top: 17px;
+        }
+        .sidebar1{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            background-color: rgb(33, 33, 33);
+        }
+        .sidebar2{
+            position: fixed;
+            top: 0px;
+            left: 85px;
+            bottom: 0px;
+            background-color: rgb(52, 51, 51);
+        }
+        .dashboard{
+            width: 185px;
+            font-family: Arial;
+            padding-top: 14px;
+            padding-left: 20px;
+        }
+        .first-row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .line1{
+            margin-top: 18px;
+            color: rgb(162, 161, 161);
+        }
+        .plus{
+            font-size: 25px;
+            padding-right: 20px;
+            color: rgb(162, 161, 161);
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar1">
+        <div class="images">
+           <div><img src="cat.jpg"></div> 
+           <div><img src="cat2.jpg"></div> 
+           <div><img src="cat3.jpg"></div> 
+        </div>
+    </div>
+
+    <div class="sidebar2">
+        <div class="dashboard">
+            <div class="first-row">
+            <div class="info">INFO</div>
+            <div class="plus">&plus;</div>
+        </div>
+            <div class="line1"># new-videos</div>
+            <div class="line1"># updates</div>
+            <div class="line1"># faq</div>
+        </div>
+    </div>
+</body>
+</html>

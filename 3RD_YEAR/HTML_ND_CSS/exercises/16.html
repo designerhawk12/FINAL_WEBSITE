@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nest-flex</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            box-shadow: 1px 1px 7px rgba(0,0,0,0.2), -1px -1px 7px rgba(0,0,0,0.2);
+            width: 430px;
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-top: 10px;
+            padding-bottom: 30px;
+        }
+        .mail-icon{
+            height: 55px;
+            width: 55px;
+            border-radius: 40px;
+        }
+        .first-mail{
+            margin-top: 22px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .info{
+            margin-left: 12px;
+        }
+        p{
+            margin-top: 2px;
+            margin-bottom: 0;
+        }
+        .nested-time{
+            display: flex;
+            flex-direction: row;
+        }
+        .time{
+            margin-left: 110px;
+            color: rgb(101, 101, 101);
+        }
+        .time1{
+            margin-left: 200px;
+            color:rgb(101, 101, 101);
+        }
+        .time2{
+            margin-left: 230px;
+            color:rgb(101, 101, 101);
+        }
+        .line1{
+            font-size: 21px;
+            font-weight: bold;
+        }
+        .line2{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .line3{
+            font-size: 17px;
+            color: rgb(101, 101, 101);
+        }
+        .top{
+            color: rgb(101, 101, 101);
+            font-weight: bold 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <p class="top">ALL INBOXES</p>
+        <div class="first-mail">
+            <img class="mail-icon" src="cat.jpg">
+            <div class="info">
+                <div class="nested-time">
+            <p class="line1">Chewy Promotions</p>
+            <p class="time">4:58 PM</p></div>
+            <p class="line2">Biggest sales of the year!</p>
+            <p class="line3">Hey there! We're writing to tell you about our...</p>
+        </div>
+        </div>
+
+
+        <div class="first-mail">
+            <img class="mail-icon" src="cat5.jpg">
+            <div class="info">
+                <div class="nested-time">
+            <p class="line1">Best Buy</p>
+            <p class="time1">12:32 PM</p></div>
+            <p class="line2">Your Best Buy eReceipt</p>
+            <p class="line3">Thank you for shopping at Best Buy, here is...</p>
+        </div>
+        </div>
+
+
+        <div class="first-mail">
+            <img class="mail-icon" src="cat2.jpg">
+            <div class="info">
+                <div class="nested-time">
+            <p class="line1">Netflix</p>
+            <p class="time2">9:00 PM</p></div>
+            <p class="line2">Here's what's coming soon to Netflix</p>
+            <p class="line3">Brand new movies and shows, old favorites...</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

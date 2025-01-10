@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nested-layouts</title>
+    <style>
+        p{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-family: Arial;
+        }
+        img{
+            width: 60px;
+            border-radius: 50px;
+        }
+        .img2{
+            border-radius: 100px;
+            width: 60px;
+            height: 60px;
+        }
+        .info{
+            margin-left: 12px;
+        }
+        .name{
+            margin-top: 2px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .line2{
+            font-size: 18px;
+            margin-top: 4px;
+            color: rgb(136, 136, 136);
+        }
+        .line3{
+            font-size: 17px;
+            margin-top: 4px;
+            color: rgb(136, 136, 136);
+        } 
+        .button1{
+            margin-left: 180px;
+        }
+        .button2{
+            margin-left: 152px;
+        }
+        .button3{
+            margin-left: 124px;
+        }
+        button{
+            background-color: rgb(35, 141, 241);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            padding-left:15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;  
+            font-size: 16px;
+        }
+        .cat1{
+            margin-bottom: 22px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="cat1">
+    <div class="icon">
+        <img src="cat2.jpg">
+    </div>
+    <div class="info">
+        <p class="name">oliver</p>
+        <p class="line2">the cat</p>
+        <p class="line3">Popular</p>
+    </div>
+    <div class="button1">
+        <button>Follow</button>
+    </div></div>
+
+
+    <div class="cat1">
+    <div class="icon">
+        <img class="img2" src="cat7.jpg">
+    </div>
+    <div class="info">
+        <p class="name">Mimi</p>
+        <p class="line2">Sleepy Cat</p>
+        <p class="line3">Popular</p>
+    </div>
+    <div class="button2">
+        <button>Follow</button>
+    </div></div>
+
+
+
+    <div class="cat1">
+        <div class="icon">
+            <img class="img3" src="cat.jpg">
+        </div>
+        <div class="info">
+            <p class="name">Rex</p>
+            <p class="line2">Happy Bulldog</p>
+            <p class="line3">Popular</p>
+        </div>
+        <div class="button3">
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
